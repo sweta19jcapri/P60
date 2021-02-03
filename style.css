@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding-top: 400px;
+    text-align: center;
+}
+
+.profile {
+  
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#welcome {
+
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(to top, #370537, #831646, #c4443e, #ea8625, #ebd212);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio {
+  margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    max-width: 550px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+padding-top: 70px;
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    
+}
+
+
+
+.links {
+    float: left;
+      color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.article:hover {
+    color:fuchsia;
+}
+
+.button {
+    height: 30px;
+    background-color: #EBD212;
+    width: 300px;
+  color: #370537;
+    border: 2px solid purple;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+#ins {
+transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  border: 2px solid purple;
+  border-radius: 25px;
+  border-style:solid;
+  padding: 3px;
+}
+
+#ins:hover {
+    transform: scale(0.9);
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-style {
+    margin-left: 25px;
+  margin-top: 25px;
+    margin-right: 25px;
+}
